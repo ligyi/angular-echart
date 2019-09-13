@@ -1,6 +1,26 @@
+# Installation
+npm install echarts -S
+npm install ngx-echarts -S
+npm install @types/echarts -D
+
+
+# Import
+import { NgxEchartsModule } from 'ngx-echarts';
+
+@NgModule({
+  imports: [
+    ...,
+    NgxEchartsModule
+  ],
+})
+export class AppModule { }
+
+
+
+
 # Echart
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) 
 
 ## Development server
 
